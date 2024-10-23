@@ -1,0 +1,50 @@
+:root{
+    --texto: #1F2E55;
+    --sub: #717FA6;
+    --fondo: #D6E1FF;
+    --cuadro: #F7F9FF;
+    --boton: #382AE1;
+    --hover: #766CF1;
+    --background: #E0E8FF;
+
+    /* FUENTE */
+    --fuente: "Red Hat Display", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{  
+    background-color: black;
+}
+
+/* PATH */
+
+.path{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+/* CARD */
+
+.card{
+    z-index: 2;
+    position: relative;
+}
+
+.card-item{
+    width: 40em;
+    height: 60rem;
+    border-radius: 2rem;
+    background-color: cadetblue;
+}
